@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--tema: empresa de publicidad-->
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -10,8 +11,12 @@
         
         }
         *{
+            /*IMPORTANTE PARA EVITAR QUE LOS ELEMENTOS SUPEREN SU TAMAÑO AL TENER BORDE*/
+            box-sizing: border-box;
             margin: 0;
         }
+        /*IMPORTANTE PARA QUE LAS IMAGENES NO SE SALGAN DE SU CONTENEDOR*/
+        img{max-width:100%}
         .menuSup{
             height:50%;
             width:100%;
@@ -42,6 +47,19 @@
 
 
         }
+        .filas{
+            width: 100%;
+            height: 33.3%;
+        }
+        #fila1{
+            background-color: paleturquoise;
+        }
+        #fila2{
+            background-color: deeppink;
+        }
+        #fila3{
+            background-color: darkorange;
+        }
     </style>
 </head>
 <body>
@@ -59,6 +77,17 @@
         <h1>DAPANIX</h1>
     </section>
     <main id="cuerpo"></main>
+        <!--section#fila$:filas*3-->
+        <section id="fila1" class= "filas">
+            <!--figure#marco$.marcos>img#img$.imagenes-->
+            <figure id="marco1" class="marcos"><img src="/imgs/img1.jpg" alt="" id="img1" class="imagenes"></figure>
+            <!--article#texto1.textos-->
+            <article id="texto1" class="textos">sdjhakojndksflñghdkalñwhfklñsjkfhsjkdhf</article>
+        </article>
+        <figure id="marco2" class="marcos">
+            <img src="/imgs/img2.jpg" alt="" id=""img2 class="imagenes"></figure>
+        <section id="fila2" class="filas"></section>
+        <section id="fila3" class="filas"></section>>
     <footer id="pie"></footer>
 </body>
 </html>
