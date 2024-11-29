@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #bfb6ac;
+            text-align: center;
+            padding: 40px 0;
+        }
+        header h1 {
+            font-family: 'Georgia', serif;
+            font-size: 2rem;
+            margin: 0;
+            color: #fff;
+        }
+        header p {
+            margin: 10px 0;
+            color: #fff;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .form-section {
+            flex: 1;
+            margin-right: 20px;
+        }
+        .form-section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        form textarea {
+            height: 100px;
+        }
+        .info-section {
+            flex: 1;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .info-section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .info-section p {
+            margin: 5px 0;
+            line-height: 1.6;
+        }
+        .info-section a {
+            color: #c50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ESCRÍBENOS</h1>
+        <p>Te informaremos sin ningún compromiso</p>
+    </header>
+    <div class="container">
+        <div class="form-section">
+            <h2>Solicita una entrevista o demostración</h2>
+            <form action="#" method="POST">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="correo" placeholder="Dirección de correo electrónico" required>
+                <input type="text" name="empresa" placeholder="Empresa" required>
+                <input type="tel" name="telefono" placeholder="Teléfono" required>
+                <textarea name="mensaje" placeholder="Mensaje"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <div class="info-section">
+            <h2>Sobre nosotros</h2>
+            <p>Desde hace 40 años <a href="#">MENSAJE</a> proporciona los mejores servicios en imagen y comunicación. Y ahora, con la tecnología más avanzada de Europa en <strong>Realidad Aumentada, Realidad Virtual, Sistemas Táctiles y Neuromarketing</strong>.</p>
+            <p><strong>Dirección:</strong> C/ Bergantín 39, 2º-1<br>28042 Madrid<br>Spain</p>
+            <p><strong>Teléfono:</strong> <a href="tel:+34914022726">+34 91.402.27.26</a></p>
+        </div>
+    </div>
+</body>
+</html>
