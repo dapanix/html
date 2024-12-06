@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin:0;
+        overflow: hidden
+    }
+    body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #CONTENEDOR1{
+        display:flex;
+        width:50vw;
+        height:34vh;
+        flex-wrap: wrap;
+    }
+    #CONTENEDOR2{
+        display:flex;
+        width:50vw;
+        height:34vh;
+    }
+    #CONTENEDOR3{
+        display:flex;
+        width:50vw;
+        height:66vh;
+        flex-wrap: wrap;
+    }
+    #CONTENEDOR4{
+        display:flex;
+        width:50vw;
+        height:66vh;
+        flex-wrap: wrap;
+    }
+    .contenedor1_cuadros{
+        width: 50%;
+        height: 50%;
+    }
+    #contenedor2_cuadro1{
+        width: 100%;
+        height: 100%;
+    }
+    .contenedor3_cuadros{
+        height: 33.3333333%;
+        width:100%;
+    }
+    .contenedor4_cuadros{
+        width: 50%;
+        height: 100%;
+    }
+    .imgC1{
+        max-height: 100%;
+        width: 100%;
+    }
+    #imgC2{
+        width: 100%;
+        max-height: 100%;
+    }
+    .imgC3{
+        width: 100%;
+        height: 100%;
+    }   
+    .imgC4{
+        max-width: 100%;
+        height: 100%;
+    }
+    
+
+</style>
+<body>
+    <!--ORDEN: 4 condtenedores grandes: CONTENEDOR$ ,imagenes dentro del contenedor: contenedor$_cuadro$, raw imagenes: conmtenedor$_img$  $=(1,2,3,4...)-->
+    <section id="CONTENEDOR1" class="contenedor">
+        <!--div#contenedor1_cuadro$*4-->
+        <div  class="contenedor1_cuadros"><img src="/HTML/imgpq.png" class="imgC1"></div>
+        <div  class="contenedor1_cuadros"><img src="/HTML/imgpq.png" class="imgC1"></div>
+        <div  class="contenedor1_cuadros"><img src="/HTML/imgpq.png" class="imgC1"></div>
+        <div  class="contenedor1_cuadros"><img src="/HTML/imgpq.png" class="imgC1"></div>
+    </section>
+    <section id="CONTENEDOR2" class="contenedor">
+        <div id="contenedor2_cuadro1"><img src="/HTML/imgpq.png" id="imgC2"></div>
+    </section>
+    <section id="CONTENEDOR3" class="contenedor">
+        <div  class="contenedor3_cuadros"><img src="/HTML/imgpq.png" class="imgC3"></div>
+        <div  class="contenedor3_cuadros"><img src="/HTML/imgpq.png" class="imgC3"></div>
+        <div  class="contenedor3_cuadros"><img src="/HTML/imgpq.png" class="imgC3"></div>
+    </section>
+    <section id="CONTENEDOR4" class="contenedor">
+        <div  class="contenedor4_cuadros"><img src="/HTML/imgpq.png" class="imgC4"></div>
+        <div  class="contenedor4_cuadros"><img src="/HTML/imgpq.png" class="imgC4"></div>
+    </section>
+</body>
+</html>
