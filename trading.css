@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.contenedores{
+    width:100vw;
+    overflow: hidden;
+    padding:0;
+}
+header{
+    height:20vh;
+    background-color: aqua;
+}
+#cuerpo{
+    max-height:70vh;
+    background-color: coral;
+}
+footer{
+    height: 10vh;
+    background-color: blueviolet;
+}
+#texto2601{
+    max-width: 60%;
+    height: 100%;
+}
+#imgs2601{
+    max-width: 40%;
+    max-height: 100%;
+    display: flex;
+}
