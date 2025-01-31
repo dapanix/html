@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <style>
+           div{
+            background-color: #b1060f;
+            height: 250px;
+            width: 60px;
+            position: relative;
+        }
+        div::before{
+            background-color: #b1060f;
+            height: 250px;
+            width: 60px;
+            content: '';
+            position: absolute;
+            left: 90px;
+        }
+        div::after{
+            background-color: #222;
+            height: 20px;
+            width: 150px;
+            content: '';
+            position: absolute;          
+            bottom: -10px;
+            border-radius: 50%;
+            box-shadow: 0 -2px 10px ;
+        }
+        span{
+            background-color: #e50913;
+            height: 250px;
+            width: 60px;
+            position: absolute;
+            left: 45px;
+            transform: skew(20deg);
+            box-shadow: 0 0 10px 4px #222;
+            }
+
+
+
+    </style>
+        <div id="netflix">
+            <span></span>
+        </div>
+</body>
+</html>
