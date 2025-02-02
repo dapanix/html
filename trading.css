@@ -2,30 +2,73 @@ body{
     margin:0;
     font-family: 'Trebuchet MS', sans-serif;
 }
-
+header{
+    height:20vh;
+    background-color: aqua;
+}
+footer{
+    height: 10vh;
+}
 .contenedores{
     width:100vw;
     overflow: hidden;
     padding:0;
 }
-header{
-    height:20vh;
-    background-color: aqua;
+.titulodef{
+    margin-left:3.4vw;
+}
+.bloquetexto{
+    width: 50%;
+}
+.textodef{
+    margin-left:5vw;
+}
+.imgsdef{
+    margin-right:5%;
+    margin-top: 5vh;
+    height: 20vh;
+}
+.subBloque{
+    display: flex;
+}
+.bloqueImagenes{
+    display: flex;
+    margin-left:10%;
+}
+.bloqueImagenes1{
+    margin-left:30%;
 }
 #cuerpo{
-    max-height:70vh;
-    background-color: coral;
-}
-footer{
-    height: 10vh;
-    background-color: blueviolet;
+    height: auto;
 }
 #texto2601{
     max-width: 60%;
     height: 100%;
 }
-#imgs2601{
-    max-width: 40%;
-    max-height: 100%;
+#bloque1{
+    margin-left: 2vw;
     display: flex;
+    height: auto;
+    background-color: aliceblue;
+    margin-bottom:10vh;
+}
+#img2{
+    height: 28vh;
+    margin-left:8%;
+    max-width: 100%;
+    border-radius: 10%;
+    box-shadow: 10px 5px 5px black;
+}
+#img1{
+    margin-left:5vw;
+    height: 30vh;
+    border-radius: 10%;
+    box-shadow: 10px 5px 5px black;
+}
+#bloque2{
+    display: flex;
+    height: auto;
+    margin-left: 2vw;
+    background-color: antiquewhite;
+    flex-direction: column;
 }
