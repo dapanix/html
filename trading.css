@@ -15,31 +15,25 @@ footer{
     padding:0;
 }
 .titulodef{
-    margin-left:3.4vw;
-}
-.bloquetexto{
-    width: 50%;
+    margin-left:3.5vw;
 }
 .textodef{
     margin-left:5vw;
+    max-width: 50%;
 }
 .imgsdef{
-    margin-right:5%;
+    margin-left:10%;
     margin-top: 5vh;
     height: 20vh;
 }
 .subBloque{
     display: flex;
 }
-.bloqueImagenes{
-    display: flex;
-    margin-left:10%;
-}
-.bloqueImagenes1{
-    margin-left:30%;
-}
 #cuerpo{
     height: auto;
+}
+#B2-1{
+    display: flex;
 }
 #texto2601{
     max-width: 60%;
@@ -50,7 +44,6 @@ footer{
     display: flex;
     height: auto;
     background-color: aliceblue;
-    margin-bottom:10vh;
 }
 #img2{
     height: 28vh;
