@@ -75,6 +75,14 @@ h1{
     width:32%;
 
 }
+#botonDescarga{
+    color:white;
+    background-color:rgb(0, 102, 255);
+    width:12vw;
+    height: 4.5vh;
+    margin-left:36vw;
+    font-size:larger
+}
 #rect1{
     margin-right: 8%;
     margin-left: -2%;
@@ -120,6 +128,18 @@ h1{
     width: 75%;
     height: 2px; 
     background-color: black; 
+}
+#linea-inferior3{
+    margin-top:10vh;
+    width: 100%;
+    height: 2px; 
+    background-color: rgb(171, 204, 223); 
+}
+#linea-inferior4{
+    margin-top:15vh;
+    width: 100%;
+    height: 2px; 
+    background-color: rgb(177, 177, 177); 
 }
 
 #sect1{
